@@ -1,0 +1,119 @@
+body{
+zoom: 75%;
+background-color: rgb(34, 34, 34);
+color: white;
+}
+/*↑ Diseño te toda la pagina*/
+
+/*↓ <header> para abajo*/
+header{
+    color: #0d6efd;
+    text-align: center;         
+    padding: 40px;              /*Ayuda a la pagina a adaptarse a diferentes resoluciones*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header h1,header h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    padding: 40px;
+    color: #0d6efd;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*↑ </header> para arriba*/
+
+/*↓ <Main> para abajo*/
+main h2{
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productos{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente al centro */
+    flex-wrap: wrap;    /*Hace que el texto se intente mantener siempre en el medio*/
+}
+.productos > div{
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(58, 57, 57);
+    border: 5px solid #0d6efd;
+}
+.container2{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.container2 > div{
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(58, 57, 57);
+    border: 5px solid #0d6efd;
+}
+
+
+
+/*↑ </Main> para arriba*/
+
+/*↓ Debajo de </Main> */
+.divisor{
+    padding: 35px;
+}
+form{
+    text-align: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+label, input{
+    width: 80%;
+    background-color: rgb(146, 146, 146);
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+fieldset{
+    display: flex;
+    flex-direction: colum;
+    align-content:center;
+    flex-wrap: wrap;
+    border: 15px double #0d6efd;
+    margin-top: 2vh ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.enviar{
+    background-color: rgb(146, 146, 146);
+    margin-left: 5px;
+}
+/*↑ Arriba de Footer*/
+
+/*Final de la pagina*/
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Extra*/
+@media (max-width: 500px){
+label, input{
+	width: auto;
+}
+form {
+	margin: auto;
+    }
+}
+
